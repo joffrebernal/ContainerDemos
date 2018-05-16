@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  webappdemo1:
+    image: ${DOCKER_REGISTRY}webappdemo1
+    build:
+      context: .\WebAppDemo1
+      dockerfile: Dockerfile
